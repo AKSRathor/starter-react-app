@@ -7,7 +7,7 @@ const mongoURI = "mongodb://127.0.0.1:27017/portfolio"
 // const uri = process.env.URI + "?retryWrites=true&w=majority"
 // console.log("THe code is ",urc)
 // mongodb+srv://aksr2003:$BQrStvgn3gRZJwzf@portfolio.qrnpgxw.mongodb.net/?retryWrites=true&w=majority
-const uri = mongodb+srv://aksr2003:$BQrStvgn3gRZJwzf@portfolio.qrnpgxw.mongodb.net/?retryWrites=true&w=majority
+const uri = `mongodb+srv://aksr2003:$BQrStvgn3gRZJwzf@portfolio.qrnpgxw.mongodb.net/?retryWrites=true&w=majority`
 
 const connectToMongoose =()=>{
     // mongoose.set('strictQuery', true);
