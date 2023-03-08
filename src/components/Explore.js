@@ -19,7 +19,7 @@ const Explore = () => {
                 'Content-Type': 'application/json',
 
             },
-            body: JSON.stringify({ Name: msg.Name, Phone: msg.Phone, Email: msg.Email, })
+            body: JSON.stringify({ Name: msg.Name, Phone: msg.Phone, Email: msg.Email, Message:msg.Message })
         });
         const json = await response.json()
 
