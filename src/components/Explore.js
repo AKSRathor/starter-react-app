@@ -9,7 +9,7 @@ const Explore = () => {
 
 
     const [msg, setMsg] = useState({ Name: "", Phone: "", Email: "", Message: "" })
-    const host = "http://localhost:5000"
+    const host = "https://trial-l9yi.onrender.com"
 
     const handleOnSend = async (e) => {
         e.preventDefault()
